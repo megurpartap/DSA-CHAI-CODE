@@ -1,6 +1,6 @@
 const bfs = (root) => {
   const values = [];
-  const queue = [];
+  const queue = [root];
 
   if (!root.key) {
     return values;
